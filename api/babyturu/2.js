@@ -2,7 +2,7 @@
 
 export default function handler(req, res) {
   res.status(200).json({
-    "name"  : "BT #1",
+    "name"  : "BT #2",
     "image" : "https://gateway.btfs.io/btfs/QmaVrs4gG8PgdLnipfzZRZ1CRmbw7RLqeaH83nCzSMgEFJ"
   })
 }
