@@ -1203,7 +1203,7 @@ contract BabyTuru is TRC721, TRC721Enumerable, TRC721MetadataMintable {
     using Strings for uint256;
 
     constructor() public TRC721Metadata("BabyTuru", "BABY TURU") {
-      _setBaseURI('https://bt-nft.vercel.app/api/babyturu/');
+      _setBaseURI('https://bt-nft-one.vercel.app/api/babyturu/');
      }
 
     function safePublicMint(address _to, uint256[] memory _tokenId) public payable {
